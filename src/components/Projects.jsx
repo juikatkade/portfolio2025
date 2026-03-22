@@ -6,20 +6,29 @@ const Projects = () => {
             <h2 className="section-title fade-in">Key Projects</h2>
             <div className="projects-grid fade-in-up">
                 <div className="project-card">
-                    <h3>New York City Taxi Data Analysis</h3>
-                    <p style={{ marginBottom: '0.5rem', color: 'var(--primary)', fontSize: '0.9rem' }}>Delta Lake | Delta Table | Spark (Core, SQL) | Pyspark</p>
+                    <h3>HEALTH INSURANCE ETL PIPELINE</h3>
+                    <p style={{ marginBottom: '0.5rem', color: 'var(--primary)', fontSize: '0.9rem' }}>Databricks, AWS S3, Delta Lake, PySpark, SQL</p>
                     <ul className="project-list">
-                        <li>Built a case study project titled ‘New York City Taxi Analysis’ using the Databricks Lakehouse Platform to process and analyze taxi trip data.</li>
-                        <li>Ingested large-scale datasets from Yellow and Green utilizing Auto Loader and processing them through a Multi Hop (Medallion) Architecture comprising Bronze, Silver, and Gold layers.</li>
+                        <li>Built an end-to-end ETL pipeline for the Health Insurance domain using Customer, Policy, Claims, Provider, and Encounters datasets, following the Medallion Architecture (Bronze, Silver, Gold) for scalable data processing.</li>
+                        <li>Ingested raw data from AWS S3 into Databricks and performed data cleansing, complex transformations, and anomaly handling in the Silver layer using PySpark for improved data quality and consistency.</li>
                     </ul>
                 </div>
-                <div className="project-card">
-                    <h3>BOOK BROWSE</h3>
-                    <p style={{ marginBottom: '0.5rem', color: 'var(--primary)', fontSize: '0.9rem' }}>React, Context-API, React-Bootstrap, Firebase, Vercel</p>
+                <div
+                    className="project-card"
+                    onClick={() => window.open("https://crick-box.vercel.app/", "_blank")}
+                    style={{ cursor: 'pointer' }}
+                >
+                    <h3>CRICKBOX – Real-Time Cricket Scoring App</h3>
+                    <p style={{ marginBottom: '0.5rem', color: 'var(--primary)', fontSize: '0.9rem' }}>React, Context API, Tailwind CSS, Firebase (Firestore, Auth), Vercel</p>
                     <ul className="project-list">
-                        <li>Designed and deployed a fully fledged online book marketplace using ReactJS and Firebase, enabling users to buy and sell books with ease streamlining user workflow by 90%.</li>
-                        <li>Implemented user authentication using Firebase Authentication, ensuring secure access to the platform. Users can register and log in.</li>
+                        <li>Designed and deployed a mobile-first cricket scoring web app using ReactJS and Firebase, enabling real-time match tracking with live scoreboard updates.</li>
+                        <li>Implemented ball-by-ball tracking with undo functionality and Firebase Authentication, ensuring accurate scoring, secure access, and persistent match data storage.</li>
                     </ul>
+                    <div className="project-links" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
+                        <a href="https://crick-box.vercel.app/" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                            Live Demo →
+                        </a>
+                    </div>
                 </div>
                 <div className="project-card">
                     <h3>BLOOD CONNECT</h3>
