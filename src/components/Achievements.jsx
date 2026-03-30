@@ -5,18 +5,27 @@ const Achievements = () => {
         <section id="achievements" className="section">
             <h2 className="section-title fade-in">Achievements</h2>
             <div className="achievements-list fade-in-up">
+
                 <div className="achievement-item">
-                    <span>🏆 <strong>Founder, NSCC KIET (now <a href="https://cpbyte.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid currentColor' }}>CPBYTE</a>):</strong> Established the college technical club NSCC KIET (now <a href="https://cpbyte.in/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid currentColor' }}>CPBYTE</a>) in partnership with Newton School, fostering coding and tech initiatives on campus.</span>
+                    <span>🏆 <strong>Publicity Head, ITSA (2026):</strong> Led publicity and managed social media campaigns for technical events, increasing engagement and participation across the student community.</span>
                 </div>
+
                 <div className="achievement-item">
-                    <span>🏆 <strong>DSA Trainer:</strong> Trained 70+ pre-final year students in Data Structures Algorithms, contributing to improved coding proficiency and placement readiness.</span>
+                    <span>🏆 <strong>Participant, Codethon’25:</strong> Competed in a college-level coding competition organized by ITSA, demonstrating strong problem-solving and competitive programming skills.</span>
                 </div>
+
                 <div className="achievement-item">
-                    <span>🏆 <strong>Speaker/Instructor:</strong> Conducted a 2-day on-ground workshop on Git/GitHub, guiding participants through hands-on exercises and real-world use cases.</span>
+                    <span>🏆 <strong>Competitive Programmer:</strong> Solved 300+ problems across platforms like <a href="https://codeforces.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid currentColor' }}>Codeforces</a> and <a href="https://www.codechef.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid currentColor' }}>CodeChef</a>, showcasing strong algorithmic thinking and consistency.</span>
                 </div>
+
                 <div className="achievement-item">
-                    <span>🏆 <strong>Runner-up, KICCS-D-HACK 23.5:</strong> Secured 2nd place in a highly competitive coding competition organized at the college.</span>
+                    <span>🏆 <strong>DSA Practitioner:</strong> Solved 100+ Data Structures and Algorithms problems on <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid currentColor' }}>LeetCode</a>, strengthening problem-solving skills and interview readiness.</span>
                 </div>
+
+                <div className="achievement-item">
+                    <span>🏆 <strong>Certified in Agile Project Management:</strong> Gained knowledge of Agile methodologies including sprint planning, iterative development, and team collaboration practices.</span>
+                </div>
+
             </div>
         </section>
     );

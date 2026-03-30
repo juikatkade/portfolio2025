@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import YouTube from './components/YouTube';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Footer from './components/Footer';
@@ -40,9 +39,8 @@ function App() {
       <main>
         <Hero />
         <About />
-        <YouTube />
+        {/* <YouTube /> */}
         <Skills />
-        <Experience />
         <Projects />
         <Achievements />
         <Footer />

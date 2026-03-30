@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import profileImg from '../assets/profile.png';
+import profileImg from '../assets/jui.jpeg';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
@@ -27,11 +27,11 @@ const Hero = () => {
         <section id="hero" className="hero-section">
             <div className="hero-content fade-in-up">
                 <div className="hero-text">
-                    <h1 className="hero-title">Hi, I'm <span className="highlight">Shaurya</span></h1>
+                    <h1 className="hero-title">Hi, I'm <span className="highlight">Jui</span></h1>
                     <h2 className="hero-subtitle">
                         <span style={{ fontWeight: 'bold' }}>
                             <Typewriter
-                                words={['Tech Youtuber.', 'Software Engineer.', 'DSA Enthusiast.']}
+                                words={['Data Scientist.', 'Software Engineer.', 'DSA Enthusiast.']}
                                 loop={true}
                                 cursor
                                 cursorStyle='|'
@@ -41,7 +41,7 @@ const Hero = () => {
                             />
                         </span>
                     </h2>
-                    <p className="hero-desc">Building scalable data solutions in enterprise settings and sharing real-world learnings. Skilled in problem solving and a DSA enthusiast.</p>
+                    <p className="hero-desc">Building scalable data solutions and ML projects. Skilled in problem solving and a DSA enthusiast.</p>
                     <div className="cta-group">
                         <a href="#contact" className="btn btn-primary">Get in Touch</a>
                         <a href="#projects" className="btn btn-secondary">View Work</a>
